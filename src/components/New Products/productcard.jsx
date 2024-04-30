@@ -4,7 +4,7 @@ export default function ProductCard({ productImage, productDescriptions, product
     return (
         <div className='relative mb-10'>
             <div className='overflow-hidden relative'>
-                <img src={`/images/products/${productImage}.jpg.webp`} alt="product" className='w-[14rem] h-[360px]' />
+                <img src={`/images/products/${productImage}.jpg.webp`} alt="product" className='w-[21rem] lg:w-[14rem] lg:h-[360px]' />
                 <ProductOptions />
             </div>
             
