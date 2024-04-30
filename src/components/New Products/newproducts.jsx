@@ -3,14 +3,14 @@ import products from './products';
 
 export default function NewProducts() {
     return (
-        <section className="py-20  px-20">
-            <div className="flex items-center justify-between pb-10">
+        <section className="pt-16 pb-16 px-5 lg:p-20">
+            <div className="flex flex-col gap-5 md:flex-row items-start justify-between pb-10">
                 <div>
                     <h1 className="uppercase text-xl font-bold"><span className="border-b-2 border-borderColor">New </span>Product</h1>
                 </div>
             
                 <div>
-                    <ul className="flex gap-5 text-gray-600">
+                    <ul className="flex gap-2 lg:gap-5 text-gray-600 text-[15px] md:text-[20px]">
                         <li className="border-b-2 border-borderColor">All</li>
                         <li>Women&apos;s</li>
                         <li>Men&apos;s</li>
@@ -21,7 +21,7 @@ export default function NewProducts() {
                 </div>
             </div>
       
-            <div className="flex gap-2 flex-wrap">
+            <div className="flex gap-2 flex-wrap justify-center items-center">
                 {
                     products.map((product, index) => {
                         return (

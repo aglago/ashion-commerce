@@ -33,7 +33,7 @@ function ProductOptions() {
     return (
         <div className='flex justify-center items-center gap-3 w-full absolute bottom-5 cursor-pointer'>
             <div className='flex justify-center items-center  h-10 w-10 rounded-full bg-white shadow'>
-                <img src="/images/icons/arrow.png" alt="" className='w-4 h-4' />
+                <img src="/images/icons/arrow.png" alt="" className='w-3 h-4' />
             </div>
 
             <div className='flex justify-center items-center  h-10 w-10 rounded-full bg-white shadow'>
