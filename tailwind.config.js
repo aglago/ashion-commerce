@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        borderColor: "#CA1515"
+        borderColor: "#CA1515",
+        statusColor: "#36A300"
       },
       keyframes: {
         borderOut: {

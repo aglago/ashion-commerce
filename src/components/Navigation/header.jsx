@@ -10,7 +10,7 @@ export default function Header() {
   }
 
   return (
-    <header className="h-24 shadow flex justify-between align-center  px-10 relative">
+    <header className="h-24 shadow flex justify-between align-center px-10 relative">
       <MobileMenu />
       <Logo />
       <Links />
@@ -62,14 +62,14 @@ function Essentials() {
         <a href="" className="text-gray-500">Login / Register</a>
       </div>
       <div>
-        <img src="/images/icons/magnifying-glass.png" alt="" className="w-6 h-6"/>
+        <img src="/images/icons/magnifying-glass.png" alt="" className="w-6 h-6 cursor-pointer"/>
       </div>
       <div  className="relative">
-        <img src="/images/icons/love.png" alt="" className="w-5 h-5"/>
+        <img src="/images/icons/love.png" alt="" className="w-5 h-5 cursor-pointer"/>
         <div className="absolute h-4 w-4 top-[-8px] right-[-10px] rounded-full bg-black text-white text-[8px] text-center leading-4 font-bold">2</div>
       </div>
       <div className="relative">
-        <img src="/images/icons/shopping-bag.png" alt="" className="w-5 h-5"/>
+        <img src="/images/icons/product.png" alt="" className="w-6 h-6 cursor-pointer"/>
         <div className="absolute h-4 w-4 top-[-8px] right-[-10px] rounded-full bg-black text-white text-[8px] text-center leading-4 font-bold">2</div>
       </div>
     </div>
