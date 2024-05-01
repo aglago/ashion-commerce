@@ -1,6 +1,5 @@
 import Children from "./components/Children/children";
-import HeroSection from "./components/Hero Section/herosection";
-import NewProducts from "./components/New Products/newproducts";
+import { Banner, NewProducts, HeroSection } from "./lib/exports";
 
 export default function App() {
 
@@ -8,6 +7,7 @@ export default function App() {
     <>
       <HeroSection />
       <NewProducts />
+      <Banner />
       <Children>
         Hello
       </Children>

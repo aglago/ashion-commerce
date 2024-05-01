@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         borderColor: "#CA1515",
-        statusColor: "#36A300"
+        statusColor: "#36A300",
       },
       keyframes: {
         borderOut: {
